@@ -1,0 +1,20 @@
+cdm:
+  dbms: postgresql
+  user: gis_user
+  password: motech
+  server: localhost/cdm
+  schema: public
+
+gis:
+  dbms: postgresql
+  user: gis_user
+  password: motech
+  server: localhost/gis
+  schema:
+
+cohort:
+  dbms: postgresql
+  user: gis_user
+  password: motech
+  server: localhost/cdm
+  schema: webapi
