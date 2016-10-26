@@ -22,7 +22,7 @@ get_region_ids <- function(connectionDetails, geoTable, idColumn){
 
 
   # TODO:  REMOVE
-  # Placeholder to subset by Maine... Test data set too huge
+  # Placeholder to subset by Maine... Test data set large
   check <- startsWith(tmp$GEOID, "23")
 
 
@@ -116,7 +116,7 @@ parse_location <- function(connectionDetails, queryFunction, personFrame, calcFu
 
 
 # Test function
-# Basically combines them all into one routine.
+# Basically combines all methods into one routine.
 # TODO: Worth keeping?
 
 create_table <- function (newColumnName,
